@@ -3,35 +3,35 @@ Prueba técnica Masivian aplicando las directrices de Clean Code.
 
 ## Punto 1.
 
-Requerimiento: Crear nuevas ruletas. 
-Método: GET
-Path : http://localhost:5000/casino/createRoulette
-Return: (int) id ruleta nueva. 
+- Requerimiento: Crear nuevas ruletas. 
+- Método: GET
+- Path : http://localhost:5000/casino/createRoulette
+- Return: (int) id ruleta nueva. 
 
 ## Punto 2
 
-Requerimiento: Apertura de ruletas. 
-Método: GET
-Parámetros: {id} = id ruleta 
-Path : http://localhost:5000/casino/OpenRoulette/{id}
-Return: (String) Confirmación de apertura.  
+- Requerimiento: Apertura de ruletas. 
+- Método: GET
+- Parámetros: {id} = id ruleta 
+- Path : http://localhost:5000/casino/OpenRoulette/{id}
+- Return: (String) Confirmación de apertura.  
 
 ## Punto 3
 
-Requerimiento: Creación de apuestas con las validaciones correspondientes.
-Método: POST
-Body: 
+- Requerimiento: Creación de apuestas con las validaciones correspondientes.
+- Método: POST
+- Body: 
 { 
   "IdRoulette":1,
   "color":null,
   "number":12,
   "amount":500
 }
-Headers: userId: {id} 
-Parámetros: {id} = id ruleta 
-Path : http://localhost:5000/casino/createBet/{id}
-Return: (String) Confirmación de la creación de la apuesta o mensaje de validación.
-Notas: En el body si se envía "color", el párametro "number" irá null y se se envía "number", "color" irá null. 
+- Headers: userId: {id} 
+- Parámetros: {id} = id ruleta 
+- Path : http://localhost:5000/casino/createBet/{id}
+- Return: (String) Confirmación de la creación de la apuesta o mensaje de validación.
+- Notas: En el body si se envía "color", el párametro "number" irá null y se se envía "number", "color" irá null. 
 
 ## Punto 4
 
