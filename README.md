@@ -1,6 +1,11 @@
 # casinoMasivian
 Prueba técnica Masivian aplicando las directrices de Clean Code.
 
+# Ambiente
+
+- .Net Core 3 (web API C#)
+
+
 ## Punto 1.
 
 - Requerimiento: Crear nuevas ruletas. 
