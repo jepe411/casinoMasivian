@@ -35,12 +35,12 @@ Prueba técnica Masivian aplicando las directrices de Clean Code.
 
 ## Punto 4
 
-Requerimiento: Cierre de ruletas y retorno de los resultados 
-Método: GET
-Parámetros: {id} = id ruleta 
-Path : http://localhost:5000/casino/getRoulettes
-Return: (json) Confirmación de la creación de la apuesta o mensaje de valicación 
-Ejemplo  return: 
+- Requerimiento: Cierre de ruletas y retorno de los resultados 
+- Método: GET
+- Parámetros: {id} = id ruleta 
+- Path : http://localhost:5000/casino/getRoulettes
+- Return: (json) Confirmación de la creación de la apuesta o mensaje de valicación 
+- Ejemplo  return: 
 
 {
 "idRoulette": 1,
@@ -61,11 +61,11 @@ Ejemplo  return:
 
 ## Punto 5
 
-Requerimiento: Listado de ruletas creadas con sus estados
-Método: GET
-Path : http://localhost:5000/casino/getRoulettes
-Return: (json)Listado de ruletas creadas con sus estados
-Ejemplo  return: 
+- Requerimiento: Listado de ruletas creadas con sus estados
+- Método: GET
+- Path : http://localhost:5000/casino/getRoulettes
+- Return: (json)Listado de ruletas creadas con sus estados
+- Ejemplo  return: 
 {"id":1,"isOpen":false},{"id":2,"isOpen":false},{"id":3,"isOpen":false}
 
 
